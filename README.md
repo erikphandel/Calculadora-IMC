@@ -1,0 +1,2 @@
+Esse é o código da calculadora IMC feito no módulo Introdução ao JavaScript do curso Profissão: Engenheiro Front-End
+da EBAC, hosteado no GitHub para compleção do exercício do módulo Introdução ao Git e GitHub do mesmo curso.
