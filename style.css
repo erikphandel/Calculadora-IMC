@@ -1,0 +1,42 @@
+/* Seção Header */
+header {
+    padding: 5px 30px 30px 30px;
+    color: aliceblue;
+    background:rgb(46, 103, 123);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(113, 113, 113);
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+/* Fim da seção Header */
+
+/* Corpo da Página */
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    box-shadow: 0 4px 10px rgb(113, 113, 113);
+}
+section.button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(46, 103, 123);
+    padding: 5px 15px;
+    text-align: center;
+}
+
+/* Fim da seção Corpo da Página */

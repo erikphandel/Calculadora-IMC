@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Calculadora IMC</h1>
+    <p>Digite os valores requisitados abaixo para saber o seu IMC</p>
+</header>
+<body>
+    <section>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" name="peso">
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" name="altura"><br>
+        <button onclick="calcularIMC()">Calcular</button>
+        <p id="imcResultado"></p>
+        <p id="imcClassificacao"></p>
+    </section>
+    <section>
+        <h3>O que quer dizer o seu valor de IMC?</h3>
+        <ul>
+            <li>Menor que 18,5: Magreza</li>
+            <li>Entre 18,5 e 24,9: Peso normal</li>
+            <li>Entre 25,0 e 29,9: Sobrepeso</li>
+            <li>Entre 30,0 e 39,9: Obesidade</li>
+            <li>Maior que 40: Obesidade grave</li>
+        </ul>
+    </section>   
+    <section>
+        <h3>O IMC não é um valor confiável.</h3>
+        <p>O IMC não leva em consideração a diferença entre massa gorda e massa muscular, e portanto pode apresentar resultados incondizentes com a realidade para atletas ou pessoas com grande massa muscular. O valor do IMC deve ser sempre interpretado em conjunto com outras medidas fisiológicas e anatômicas do paciente.</p>
+    </section> 
+</body>
+</html>
